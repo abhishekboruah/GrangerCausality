@@ -83,6 +83,7 @@ The ADF test initially showed the data to be non-stationary (p-value = 0.9987987
 ![GDP Difference](./images/gdp_diff.png)
 *Figure 3: Graph of first-order difference of ln(GDP of India) versus Year.*
 
+![Export Difference](./images/export_diff.png)
 *Figure 4: Graph of first-order difference of ln(Total Export of India) versus Year.*
 
 ### Linear Granger Causality Test Results
