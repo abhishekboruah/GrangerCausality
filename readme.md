@@ -69,25 +69,21 @@ Here's a summary of the initial data:
 | max         | 2021    | 1.48E+08| 3.09E+07|
 
 ### GDP vs. Year
-`
-`
+![GDP vs Year](./images/gdp_vs_year.png)
 *Figure 1: Graph between GDP of India versus Year.*
 
 ### Exports vs. Year
-`
-`
+![Exports vs Year](./images/exports_vs_year.png)
 *Figure 2: Graph between Total Exports of India versus Year.*
 
 ### Stationarity Check
 
 The ADF test initially showed the data to be non-stationary (p-value = 0.9987987158). After applying logarithmic transformation and differencing, the data was made stationary.
 
-`
-`
-*Figure 3: Graph of first-order difference of In(GDP of India) versus Year.*
-`
-`
-*Figure 4: Graph of first-order difference of In(Total Export of India) versus Year.*
+![GDP Difference](./images/gdp_diff.png)
+*Figure 3: Graph of first-order difference of ln(GDP of India) versus Year.*
+
+*Figure 4: Graph of first-order difference of ln(Total Export of India) versus Year.*
 
 ### Linear Granger Causality Test Results
 
